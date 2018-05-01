@@ -1,4 +1,24 @@
-# cicd-flask-github-circleci-docker-aws
-A simple web application using python flask for cicd assignment
+hello-world
+===========
 
-<!-- [![CircleCI](https://circleci.com/gh/kartisuri/cicd-flask-github-circleci-docker-heroku/tree/master.svg?style=svg)](https://circleci.com/gh/kartisuri/cicd-flask-github-circleci-docker-heroku/tree/master) -->
+[![Deploy to Docker Cloud](https://files.cloud.docker.com/images/deploy-to-dockercloud.svg)](https://cloud.docker.com/stack/deploy/)
+
+Sample docker image to test docker deployments
+
+## Running locally
+
+Build and run using Docker Compose:
+
+	$ git clone https://github.com/docker/dockercloud-hello-world
+	$ cd dockercloud-hello-world
+	$ docker-compose up
+
+
+## Deploying to Docker Cloud
+
+[Install the Docker Cloud CLI](https://docs.docker.com/docker-cloud/tutorials/installing-cli/)
+
+	$ docker login
+	$ docker-cloud stack up
+
+Hello world!
